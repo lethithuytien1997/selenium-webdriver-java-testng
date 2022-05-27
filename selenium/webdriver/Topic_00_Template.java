@@ -20,21 +20,18 @@ public class Topic_00_Template {
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("");
 	}
 
 	@Test
-	public void TC_01_ValidateCurrentUrl() {
-		// Login Page Url matching
-		String loginPageUrl = driver.getCurrentUrl();
-		Assert.assertEquals(loginPageUrl, "");
+	public void TC_01_() {
+		
 	}
-
+	
 	@Test
 	public void TC_02_() {
 		
 	}
-
+	
 	@Test
 	public void TC_03_() {
 		
@@ -48,5 +45,14 @@ public class Topic_00_Template {
 	@AfterClass
 	public void afterClass() {
 		driver.quit();
+	}
+	
+	public void sleepInsecond (long timeInSecond) {
+		try {
+			Thread.sleep(timeInSecond * 1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
