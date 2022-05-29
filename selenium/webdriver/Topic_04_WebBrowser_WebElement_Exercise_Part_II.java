@@ -145,6 +145,7 @@ public class Topic_04_WebBrowser_WebElement_Exercise_Part_II {
 		
 		//Combine
 		passTextbox.clear();
+		sleepInsecond(5);
 		passTextbox.sendKeys("Abc123&&&");
 		sleepInsecond(5);
 		
