@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Facebook">
+	<test name="First Test">
+		<classes>
+			<class name="parallel.TC_01_First_Class" />
+			<class name="parallel.TC_02_Second_Class" />
+
+		</classes>
+	</test>
+
+	<test name="Second Test">
+		<classes>
+			<class name="parallel.TC_03_Third_Class" />
+			<class name="parallel.TC_04_Fourth_Class" />
+		</classes>
+	</test>
+</suite>

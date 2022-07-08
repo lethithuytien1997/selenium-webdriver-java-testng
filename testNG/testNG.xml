@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Facebook">
+<parameter name="server" value="LIVE"/>
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox"/>
+		<packages>
+			<package name="tech" />
+		</packages>
+	</test>
+</suite>
